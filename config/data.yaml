@@ -1,0 +1,13 @@
+train: dataset/train/images
+val:  dataset/valid/images
+test: dataset/test/images
+
+nc: 17
+names: ['ANS', 'Gna', 'Go', 'InterM', 'LA', 'LI', 'Me', 'Nation', 'Orb', 'PNS', 'Po', 'Pog', 'Point A', 'Point B', 'Sella', 'UA', 'UI']
+
+roboflow:
+  workspace: kasaka
+  project: idcph
+  version: 5
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kasaka/idcph/dataset/1
